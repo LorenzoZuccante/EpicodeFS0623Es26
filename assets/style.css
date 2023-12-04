@@ -1,0 +1,15 @@
+body {
+    font-size: 1.5em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: bisque;
+    background: red;
+    text-align: center;
+    margin: 3em;
+}
+ul li {
+    color: aqua;
+}
+#happyCat {
+    border-radius: 20%;
+    width: 15%;
+}

@@ -5,10 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Svogli 2 esercizi in js">
     <script src="assets/script.js" defer></script>
-    <script src="assets/script2.js"></script>
+    <link rel="stylesheet" href="assets/style.css">
     <title>Esercizio 26</title>
 </head>
 <body>
-    
+    <h1 id="su">Add your pet to our list!</h1>
+    <form id="petForm">
+        <label for="petName">Your pet Name:</label>
+        <input type="text" id="petName" name="petName"><br>
+        
+        <label for="ownerName">Your first name:</label>
+        <input type="text" id="ownerName" name="ownerName"><br>
+        
+        <label for="species">Your pet species:</label>
+        <input type="text" id="species" name="species"><br>
+        
+        <label for="breed">Your pet Breed</label>
+        <input type="text" id="breed" name="breed"><br>
+        
+        <input type="submit" value="Add pet">
+      </form>
+      
+      <ul id="petList"></ul>
+      <div id="imgContainer"><a href="#su"><img id="happyCat" src="assets/Happy-White-Cat-Face-Design-SVGPNG-Graphics-9250670-1-1-580x387.png" alt="Happy cat"></a></div>
+      
+      <script src="assets/script2.js"></script>
 </body>
 </html>
